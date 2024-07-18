@@ -8,7 +8,7 @@ jobs:
     runs-on: arc-runner-set
     steps:
     - run: |
-      echo "🎉 This job uses runner scale set runners!"
-      cat /etc/*release*
-      lscpu
+        echo "🎉 This job uses runner scale set runners!"
+        cat /etc/*release*
+        lscpu
 
